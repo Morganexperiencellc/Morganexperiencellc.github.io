@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Morgan Experience LLC</title>
-  <link rel="stylesheet" href="styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> <link rel="stylesheet" href="styles.css">
   <style>
     body {
       margin: 0;
@@ -21,10 +21,23 @@
     header h1 { margin: 1rem 0 0.5rem; font-size: 2.8rem; letter-spacing: 2px; }
     header p { font-size: 1.2rem; color: #aaa; }
     .section { padding: 3rem 1rem; text-align: center; max-width: 900px; margin: 0 auto; }
-    .section h2 { font-size: 2rem; color: #e0c066; margin-bottom: 1rem; }
     .section p { font-size: 1.1rem; color: #ccc; line-height: 1.6; }
-    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 2rem; }
-    .gallery img { width: 100%; max-width: 280px; border-radius: 8px; border: 2px solid #d4af37; box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
+    .gallery1.jpg { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 2rem; }
+    
+.gallery2.jpg { width: 100%; max-width: 280px; border-radius: 8px; border: 2px solid #d4af37; box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
+    .section h2 {
+color: #ffd700; /* gold */
+font-family: 'Playfair Display', serif;
+margin-bottom: 1rem;
+}
+
+.section ul {
+color: white;
+list-style-type: disc;
+padding-left: 20px;
+font-size: 1.1rem;
+line-height: 1.6;
+}
     .reviews { padding: 3rem 1rem; background-color: #0d0d0d; color: #ccc; }
     .review { margin-bottom: 2rem; border-bottom: 1px solid #333; padding-bottom: 1rem; }
     .review h4 { color: #d4af37; }
@@ -49,9 +62,14 @@
   </style>
 </head>
 <body>
-
+  <section class="gallery">
+     <img src="images/Truck1.jpg" alt="Truck Front View" />
+<img src="images/Gallery1.jpg" alt="Warehouse view 1" />
+<img scr="images/Gallery2.jpg" alt="Loaded Truck"/>  
+ <img src="images/Gallery3.jpg" alt="Truck Loading" />
+</section>    
   <header>
-    <img src="IMG_5298.png" alt="Morgan Experience LLC Logo" />
+    <img src="images/Morgan-Logo.png" alt="Morgan Experience LLC Logo" />
     <h1>Morgan Experience LLC</h1>
     <p style="font-style: italic; color: #c7b15b;">A Tradition of Trust. An Experience of Excellence.</p>
   </header>
@@ -59,13 +77,23 @@
   <section class="section">
     <h2>About Us</h2>
     <p>Morgan Experience LLC is a Florida-based company founded in 2021. We operate multiple service divisions under one trusted name, delivering professionalism, reliability, and growth across industries.</p>
+     <p>Our experience goes beyond miles. It’s built on human connection, clear communication, and a commitment to delivering reliability.Our goal is to leave a lasting impression of trust, excellence, and care.</p>
   </section>
 
   <section class="section">
-    <h2>Our Mission</h2>
-    <p>To redefine excellence by providing prestige-level service, safety transport, and client-centered solutions.</p>
-  </section>
+<h2>Our Services</h2>
+<ul>
+<li>🚛 Freight & Trucking Services (Box Truck, Local/OTR)</li>
+<li>📦 Pallet & Equipment Transport</li>
+<li>🧰 Future Services Coming Soon</li>
+</ul>
+</section>
 
+  
+  <section class="section">
+    <h2>Our Mission</h2>
+    <p>To redefine excellence by providing prestige-level service, safety transport, and client-centered solutions.Morgan Experience is more than a name — it’s a legacy of excellence. We are grounded in integrity, fueled by family, and committed to creating unmatched client experiences that deliver peace of mind and prestige in every mile. .</p>
+ </section>
   
 
   <section class="reviews">
@@ -83,7 +111,7 @@
   <section class="contact">
     <h2>Book Us Today</h2>
     <p>Email: morganexperience876@gmail.com</p>
-    <p>Based in: Fort Lauderdale & Tampa, Florida</p>
+    <p>Based in: North Lauderdale Florida</p>
     <a href="#booking" class="book-button">Get a Quote</a>
   </section>
 
